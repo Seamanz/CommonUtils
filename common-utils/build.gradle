@@ -47,7 +47,7 @@ bintray {
     pkg {
         repo = 'Android'
         name = rootProject.artifact_Id
-        desc = "${rootProject.artifact_Id} for persional android development"
+        desc = "${rootProject.artifact_Id} for persional Android development"
         websiteUrl = siteUrl
         issueTrackerUrl = rootProject.issue_tracker_url
         vcsUrl = gitUrl

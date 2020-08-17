@@ -16,7 +16,7 @@ public class DimenUtils {
      * @return px value
      */
     public static int dp2px(float dp) {
-        return (int) (Resources.getSystem().getDisplayMetrics().density * dp);
+        return (int) (Resources.getSystem().getDisplayMetrics().density * dp + 0.5F);
     }
 
     /**
@@ -26,6 +26,6 @@ public class DimenUtils {
      * @return dp value
      */
     public static float px2dp(int px) {
-        return px / Resources.getSystem().getDisplayMetrics().density;
+        return px / Resources.getSystem().getDisplayMetrics().density + 0.5F;
     }
 }
